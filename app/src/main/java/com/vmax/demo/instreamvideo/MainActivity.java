@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
                     afd.getStartOffset(),
                     afd.getLength()
             );
+
             afd.close();
             mediaPlayer.prepare();
             AudioManager audio = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
